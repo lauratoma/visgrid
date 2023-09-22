@@ -9,7 +9,7 @@ DEFAULT: $(PROGRAMS)
 ##CFLAGS = -m64 -Winline -DNDEBUG -O3 -Wall 
 
 #DEBUG MODE 
-CFLAGS = -m64 -Winline -g -O3 -Wall
+CFLAGS = -m64 -Winline -O3 -Wall
 
 CC = gcc -std=c99  $(CFLAGS)
 
